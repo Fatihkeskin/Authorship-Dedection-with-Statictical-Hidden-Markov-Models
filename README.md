@@ -3,7 +3,7 @@ First, the program creates some Language Models from given Corpus (Federalist Pa
 text generation and authorship detection. Creating the Language Models well is to key to achieve this problems’ purpose. 
 Because not tokenizing the end-of-sentence characters, not deleting the extreme characters(* ] - ) cause the probabilities lowered.
 For the both tasks i came into some results, such as:
-- The independency of words can be seen for every random generated texts from unigrams. The dual relationship can be noticeable for 
+  The independency of words can be seen for every random generated texts from unigrams. The dual relationship can be noticeable for 
 every generated texts from bigrams. I can tell the same for the triples for the generated texts from trigram.
 
   In general, i tried to catch the characteristics (writing style, frequently used words, word order) 
